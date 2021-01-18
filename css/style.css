@@ -1,0 +1,144 @@
+
+/*Estructura de la pagina*/
+
+.general {
+    width: 1000px;
+    margin: auto;
+    padding: auto;
+}
+
+.head {
+    height: 120px;
+    margin-bottom: 21px;
+    background-color: #d7b3a7;
+}
+
+/* navegacio */
+
+.main ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.main ul li {
+    text-align: center;
+    display: inline-block;
+    width: 196px;
+    height: 48px;
+    background-color: #d7b3a7; 
+    
+}
+      
+.main ul li a {
+    color: whitesmoke;
+}
+
+
+nav li a:hover {
+     color: black;   
+ }
+ 
+
+footer {
+    background-color: #d7b3a7;
+    color: whitesmoke;
+    height: 70px;
+    text-align: center;
+    clear: both;
+}
+
+header,nav,body, footer {
+    display: block;
+    margin: 20px auto;
+}
+
+/* contingut capçalera */
+
+.logo {
+    float: left;
+    margin: 30px;
+    width: 200px;
+    height: 60px;
+    background-color: black;
+}
+
+.icono {
+    float: right;
+    width: 40px;
+    height: 40px;
+    padding: 40px 20px 40px 0px;
+}
+
+/* contingut cos*/
+
+#cuerpo {
+    height: 669px;
+    margin: 25px 0px;
+}
+
+.columnas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 9px;
+    margin-bottom: 25px;
+}
+
+
+.section  {
+    width: 600px;
+    margin: 0px 200px;
+}
+
+.caja{
+    padding: 0px 20px 25px;
+}
+
+/* propietats*/
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+p {
+    text-align: justify;
+    font-size: 18px;
+    font-family: serif;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* contingut footer*/
+
+.mail {
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+
+.copyright {
+    text-align: center;
+    color: whitesmoke;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
