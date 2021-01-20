@@ -71,7 +71,7 @@ header,nav,body, footer {
 
 /* contingut cos*/
 
-#cuerpo {
+section {
     height: 669px;
     margin: 25px 0px;
 }
@@ -90,8 +90,9 @@ article  {
 }
 
 .box {
-    padding: 0px 20px 25px;
-}
+    padding: 0px 20px;
+    }
+
 
 /* propietats*/
 
